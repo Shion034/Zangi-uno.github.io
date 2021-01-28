@@ -1,5 +1,5 @@
 /*----------------------header----------------------*/
-header{
+header, footer{
     width: 100%;
     background-color: #473A3C;
 }
@@ -71,5 +71,16 @@ h3{
     max-width: 350px;
     text-align: center;
     padding-bottom: 20px;
-    margin-top: -10px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:  #AC4B4B;
+}
+.social{
+    text-align: right;
+    padding: 2%;
 }
