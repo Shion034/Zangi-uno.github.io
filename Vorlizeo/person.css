@@ -1,3 +1,8 @@
+body{
+    background-color: #D3CABA;
+    margin: auto 0;
+}
+/*---------------------header---------------------------*/
 header, footer{
     width: 100%;
     background-color: #473A3C;
@@ -18,7 +23,7 @@ h1{
     color: #AC4B4B;
     text-shadow: 3px 3px 2px white;
 }
-
+/*---------------------footer---------------------------*/
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,4 +32,10 @@ footer{
 .social{
     text-align: right;
     padding: 2%;
+}
+/*---------------------contents---------------------------*/
+p{
+    font-size: 13px;
+    padding: 10px;
+
 }
