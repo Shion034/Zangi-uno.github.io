@@ -1,0 +1,30 @@
+header, footer{
+    width: 100%;
+    background-color: #473A3C;
+}
+.headerlogo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.titlelogo{
+    width: 60px;
+    padding-right: 15px;
+    
+}
+h1{
+    font-size: 2.5em;
+    color: #AC4B4B;
+    text-shadow: 3px 3px 2px white;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:  #AC4B4B;
+}
+.social{
+    text-align: right;
+    padding: 2%;
+}
