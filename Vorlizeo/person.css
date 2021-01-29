@@ -19,9 +19,10 @@ header, footer{
     
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2em;
     color: #AC4B4B;
     text-shadow: 3px 3px 2px white;
+    font-family: 'Rock Salt', cursive;
 }
 /*---------------------footer---------------------------*/
 footer{
@@ -35,7 +36,25 @@ footer{
 }
 /*---------------------contents---------------------------*/
 p{
+    background-color: #DEDCD5;
     font-size: 13px;
     padding: 10px;
-
+    font-family: 'Kosugi Maru', sans-serif;
+}
+h2{
+   color:#AC4B4B;
+   font-family: 'Tinos', serif;
+   font-size: 2rem;
+}
+.subname{
+    background-color: #D3CABA;
+    margin-top: -15px;
+    font-size: 15px;
+}
+main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+h4{
+    margin-bottom: -5px;
 }
